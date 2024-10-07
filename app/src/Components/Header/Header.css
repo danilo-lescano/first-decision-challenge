@@ -1,0 +1,40 @@
+header {
+    border: 0;
+    width: 100%;
+    height: 75px;
+    background-color:cornflowerblue;
+    display: inline-block;
+    position: relative;
+}
+
+form.header-form, .bem-vindo-span {
+    font-size: 1.5em;
+    position: absolute;
+    right: 0;
+    padding: 0 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bem-vindo-span {
+    color: rgb(7, 48, 123);
+}
+
+.header-input-text {
+    padding: 12px 20px;
+    font-size: .8em;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(12, 67, 170);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.header-input-btn {
+    background-color: rgb(12, 67, 170);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
